@@ -16,7 +16,7 @@ export default function Contact() {
         </p>
 
         {/* Big CTA */}
-        <div className="relative overflow-hidden rounded-2xl border border-white/5 bg-[var(--card)] p-12 md:p-16 text-center">
+        <div className="relative overflow-hidden rounded-2xl border border-white/5 bg-[var(--card)] p-6 sm:p-12 md:p-16 text-center">
           <div
             className="absolute inset-0 opacity-5"
             style={{
@@ -41,7 +41,7 @@ export default function Contact() {
             </a>
 
             {/* Social links */}
-            <div className="mt-10 flex justify-center gap-8 text-white/30 text-sm">
+            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8 text-white/30 text-sm">
               <a
                 href="https://linkedin.com/in/sarvesh2838"
                 target="_blank"
